@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,12 +9,19 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png" />
     <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon-16x16.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="manifest" href="/site.webmanifest" />
     <title>Nintendo Switch</title>
 </head>
+
 <body>
     <div class="container">
+        <div class="hamburger">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
         <header>
             <div class="image_wrapper">
                 <img src="assets/img/header/fb-switch-1280x720-1.webp" alt="Nintendo Switch">
@@ -24,6 +32,25 @@
                 <button>Compre agora</button>
             </div>
         </header>
+
+        <div class="sidebar">
+            <nav>
+                <ul class="menu">
+                    <li class="menu-item"><a href="#home" class="menu-link">Home</a></li>
+                    <li class="menu-item"><a href="#modos" class="menu-link">Modos</a></li>
+                    <li class="menu-item"><a href="#joycon" class="menu-link">Joy-Con</a></li>
+                    <li class="menu-item"><a href="#funcionalidades" class="menu-link">Funcionalidades</a></li>
+                    <li class="menu-item"><a href="#jogos" class="menu-link">Jogos</a></li>
+                </ul>
+            </nav>
+            <div class="social-media">
+                <a href=""><i class="fa fa-facebook-f"></i></a>
+                <a href=""><i class="fa fa-instagram"></i></a>
+                <a href=""><i class="fa fa-twitter"></i></a>
+            </div>
+        </div>
     </div>
 </body>
+<script src="assets/js/script.js"></script>
+
 </html>

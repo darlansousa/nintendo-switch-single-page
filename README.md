@@ -6,5 +6,5 @@ Pagina de Apresentação de um produto: Nintendo Switch
 
 :package: Nova funcionalidade
 :up: Atualização
-:beatle: Correção de bug
-:checked_flag: Release
+:bug: Correção de bug
+:checkered_flag: Release
